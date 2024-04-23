@@ -17,6 +17,7 @@
 
 .conteudo-principal { 
     display: flex;
+    color: var (rgba(58, 55, 94, 0.3));
     flex-direction: column;
     justify-content: center;
     align-items: center;
