@@ -1,7 +1,7 @@
 :root {
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57; 
-    --branco: #d82525; 
+    --branco: #ffffff; 
     --botao-ativo: #3A375E; 
     --botao-inativo: rgba(58, 55, 94, 0.5); 
     --texto-fundo: rgba(58, 55, 94, 0.3);
@@ -10,7 +10,7 @@
 @import url(‘https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@40;700&display=swap’);
 
 body {
-    background-color: var( #1E1E1E);
+    background-color: var( --cor-de-fundo);
     color: var(--branco); 
     font-family: ‘Chakra Petch’, sans-serif;
 }
@@ -51,14 +51,11 @@ body {
     border-top: none;
 }
 
+@media screen and (min-width: 768px) {
 .botoes {
     display: block;
+    display: flex;
 }
-
-@media screen and (min-width: 768px) { 
-
-.botoes { 
-    display: flex;}
 }
 
 .botao:first-child { 
