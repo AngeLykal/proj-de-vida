@@ -1,4 +1,5 @@
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root {    
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57; 
     --branco: #b64747; 
@@ -6,12 +7,6 @@
     --botao-inativo: rgba(58, 55, 94, 0.5); 
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
-
-@import url(‘https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@40;700&display=swap’);
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-</style>
-
 
 body {
     background-color: var( --cor-de-fundo);
