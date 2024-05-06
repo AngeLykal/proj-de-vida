@@ -31,6 +31,6 @@ function calculaTempo(tempoObjetivo) {
 
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 contadores[0].textContent = tempoObjetivo1;
-contadores[0].textContent = Contagem regressiva;
+contadores[0].textContent = ContagemRegressiva;
 }
 }
