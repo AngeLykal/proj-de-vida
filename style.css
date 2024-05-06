@@ -35,8 +35,7 @@ body {
 }
 
 .botao { 
-    font-family: Crakra Petch, sans-serif
-    ;
+    font-family: Crakra Petch, sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco); 
     display: flex;
@@ -72,7 +71,7 @@ body {
     background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
-    }
+}
 
 .ativo{
     background-color: var(--botao-ativo);

@@ -12,7 +12,7 @@ for(let i=0;i <botoes.length;i++){
     textos[j].classList.remove(ativo);
 
 const contadores = document.querySelectorAll(contadores);
-const tempoObjetivo1 = new Date(2024,0o5 - 0o5,T,0o0,0o0,0o0);
+const tempoObjetivo1 = new Date(2024, 0o5, 26 | 10 | 0o0 | 0o0);
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
