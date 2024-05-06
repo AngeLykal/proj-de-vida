@@ -35,7 +35,8 @@ body {
 }
 
 .botao { 
-    font-family: Crakra Petch, sans-serif;
+    font-family: Crakra Petch, sans-serif
+    ;
     background-color: var(--botao-inativo);
     color: var(--branco); 
     display: flex;
@@ -96,7 +97,7 @@ body {
     color: var(--verde); 
     text-transform: uppercase;
     }
-.contador{
+.contadores{
     font-size: 20px;
     text-align: center;
 }
