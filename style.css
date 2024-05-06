@@ -96,7 +96,7 @@ body {
     color: var(--verde); 
     text-transform: uppercase;
     }
-.contadores{
+.contador{
     font-size: 20px;
     text-align: center;
 }
