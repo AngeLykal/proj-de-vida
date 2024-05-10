@@ -13,7 +13,7 @@ for(let i=0;i <botoes.length;i++){
     textos[i].classList.add(ativo);
     textos[j].classList.remove(ativo);
 }
-
+}
 const contadores = document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2024-10-0o5,T0o0,0o0,0o0");
 
@@ -30,4 +30,6 @@ function calculaTempo(tempoObjetivo) {
     minutos %= 60;
     horas %= 24;
 return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
+}
+}
 }
