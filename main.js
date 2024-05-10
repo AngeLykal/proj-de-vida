@@ -1,12 +1,10 @@
-const botoes = document.querySelectorAll(botao);
-const textos = document.querySelectorAll(aba-conteudo);
+const botoes = document.querySelectorAll("botao");
+const textos = document.querySelectorAll(".aba-conteudo");
 for(let i=0;i <botoes.length;i++){ botoes[i].onclick = function() {
 
 for(let j=0;j<botoes.length;j++) {
-    botoes[j].classList.remove(ativo);
-}
-botoes[i].classList.add(ativo);
-}
+botoes[i].classList.add("ativo");
+botoes[j].classList.remove("ativo");
 }
 
 for(let i=0;i <botoes.length;i++){
@@ -14,9 +12,10 @@ for(let i=0;i <botoes.length;i++){
     botoes[i].classList.add(ativo);
     textos[i].classList.add(ativo);
     textos[j].classList.remove(ativo);
+}
 
-const contadores = document.querySelectorAll(contadores);
-const tempoObjetivo1 = new Date(2024, 0o5, 26 | 10 | 0o0 | 0o0); Date (+4, overloads);
+const contadores = document.querySelectorAll(".contador");
+const tempoObjetivo1 = new Date("2024-10-0o5,T0o0,0o0,0o0");
 
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
@@ -30,11 +29,5 @@ function calculaTempo(tempoObjetivo) {
     segundos %= 60;
     minutos %= 60;
     horas %= 24;
-    return dias + dias + horas + horas + minutos + minutos + segundos + segundos;
-}
-
-contadores[0].textContent = tempoObjetivo1 - tempoAtual;
-contadores[0].textContent = tempoObjetivo1;
-contadores[0].textContent = ContagemRegressiva;
-}
+return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
 }

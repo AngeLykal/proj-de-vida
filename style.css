@@ -13,25 +13,9 @@ body {
     color: var(--branco); 
     font-family: Chakra Petch, sans-serif;
 }
-
-.conteudo-principal { 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-}
-
-.titulo-principal { 
-    text-align: left;
-    width: 100%;
-    font-size: 32px;
-}
-
-.titulo-principal span{
-    color: var(--verde);
+.ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
 }
 
 .botao { 
@@ -50,9 +34,29 @@ body {
     border-top: none;
 }
 
+.conteudo-principal { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal { 
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span {
+    color: var(--verde);
+}
 .botoes {
     display: block;
 }
+
 @media screen and (min-width: 768px){
 .botoes { 
     display: flex;
@@ -73,10 +77,6 @@ body {
     border-radius: 0 0 40px 40px;
 }
 
-.ativo{
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--verde);
-}
 .botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
